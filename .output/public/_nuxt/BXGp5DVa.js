@@ -1,1 +1,0 @@
-import{l as c,m as n}from"./23-1XH84.js";import{u as r}from"./CIWgJfHO.js";const p=c(async i=>{var s;let e,a;const o=i.params.id,{data:t}=([e,a]=n(()=>r(`https://dummyjson.com/recipes/${o}`,"$osxzMAQMi3")),e=await e,a(),e);((s=t.value)==null?void 0:s.cuisine)==="Italian"&&console.log(`User visited an Italian recipe: ${t.value.name}`)});export{p as default};
